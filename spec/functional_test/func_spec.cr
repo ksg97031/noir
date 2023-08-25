@@ -11,3 +11,8 @@ tester_kemal = FunctionalTester.new("fixtures/kemal/", {
     :techs => 1,
     :endpoints => 2
 }).test_all
+
+tester_spring = FunctionalTester.new("fixtures/spring/", {
+    :techs => 1,
+    :endpoints => 8
+}).test_all
